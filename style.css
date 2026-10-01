@@ -259,14 +259,13 @@ section {
 .faq-group summary .faq-chevron {
     width: 14px;
     height: 14px;
-    display: flex;
+    display: inline-flex;
     flex: 0 0 14px;
     align-items: center;
     justify-content: center;
-    background-color: currentColor;
-    -webkit-mask: url("bx-chevron-down.svg") center / contain no-repeat;
-    mask: url("bx-chevron-down.svg") center / contain no-repeat;
     color: var(--accent);
+    font-size: 14px;
+    line-height: 1;
     transform: rotate(0deg);
     transform-origin: center;
     transition: transform 0.2s ease, color 0.2s ease;
