@@ -52,6 +52,11 @@ a:hover{
     color: #FFF200;
 }
 
+h1{
+    font-weight: 400;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
 h2{
     font-weight: 500;
     font-size: clamp(1.1rem, 2.5vw, 1.35rem);
@@ -251,7 +256,7 @@ section {
     flex: 1;
 }
 
-.faq-group summary i {
+.faq-group summary .faq-chevron {
     width: 18px;
     height: 18px;
     display: inline-flex;
@@ -275,7 +280,7 @@ section {
     color: #FFF200;
 }
 
-.faq-group details[open] summary i {
+.faq-group details[open] summary .faq-chevron {
     color: #FFF200;
     transform: rotate(180deg);
 }
