@@ -257,18 +257,13 @@ section {
 }
 
 .faq-group summary .faq-chevron {
-    width: 18px;
-    height: 18px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    width: 14px;
+    height: 14px;
+    display: block;
     flex-shrink: 0;
     color: var(--accent);
-    font-size: 1.15rem;
-    line-height: 1;
-    background: transparent;
-    border: none;
-    border-radius: 0;
+    transform: rotate(0deg);
+    transform-origin: center;
     transition: transform 0.2s ease, color 0.2s ease;
 }
 
